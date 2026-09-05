@@ -71,7 +71,7 @@ public class Persona {
         System.out.println("Direccion de la persona: " + direccionP);
         System.out.println("Telefono de la persona: " + telefonoP);
         System.out.println("Correo de la persona: " + correoP);
-        System.out.println("IMC de la persona: %.2f" + calcularIMC());//%.2f sirve para representar un numero con solo dos decimales
+        System.out.printf("IMC de la persona: %.2f%n", calcularIMC());//%.2f sirve para representar un numero con solo dos decimales
         System.out.println("Clasificacion del IMC de la persona: " + clasificarIMC());
     }
 }
